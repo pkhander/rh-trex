@@ -1,6 +1,8 @@
 module github.com/openshift-online/rh-trex
 
-go 1.21
+go 1.23
+
+toolchain go1.23.7
 
 require (
 	github.com/Masterminds/squirrel v1.1.0
